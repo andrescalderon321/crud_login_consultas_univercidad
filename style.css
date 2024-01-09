@@ -1,0 +1,35 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box ;
+  }
+
+.form-index{
+    color: white;   
+    background-color: aqua;
+  background-color: rgba(252, 250, 250, 0.7);
+  }
+
+.table-back{
+  background-color: blue;
+  
+}  
+  body{
+
+    background: url("img/fond.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  background-attachment: fixed;
+}
+
